@@ -282,3 +282,11 @@ header{
 #attendance_updation{
     background-color: white;
 }
+
+#attendance_updation input, text{
+    width: 30px;
+}
+
+#attendace_updation table, td{
+    text-align: center;
+}
