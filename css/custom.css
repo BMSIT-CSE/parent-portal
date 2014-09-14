@@ -1,0 +1,284 @@
+body{
+    width: 100%;
+    height: 100%;
+    color: rgb(13, 9, 65);
+    background-color: #333;
+    font-family: Verdana, Geneva, sans-serif;
+} 
+
+
+p{
+    font-size: 15px;
+    line-height: 1.3;
+}
+
+a{
+    color: #777;
+}
+
+a:hover{
+    color: #c33;
+    text-decoration: none;
+}
+
+.right_aligned{
+    text-align: right;
+}
+
+.centered{
+    text-align: center;
+}
+
+.float_left{
+    float:left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#title{
+    font-size: 50px;
+    padding: 3px;
+    margin: 0;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #777;
+}
+
+#sub_heading{
+    font-size: 14px;
+    padding: 2px;
+    margin: 0;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #777;
+}
+
+#logo_container{
+    float:left;
+}
+
+#title_container{
+    float:left;
+    height: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+#proctor_or_parent{
+    position: absolute;
+    top: 0px;
+    right: 10%;
+    z-index: 1;
+}
+
+#proctor_or_parent div{
+    float: left;
+    padding: 5px;
+}
+
+#proctor_or_parent div a{
+    font-family: Verdana, Geneva, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+#proctor_or_parent div a:hover{
+    border-bottom: 5px solid #c33;
+}
+
+.active{
+    color: #c33;
+}
+
+.navbar_custom{
+    border: 0px;
+    border-radius: 0px;
+    margin: 0px;
+    margin-top: 70px;
+}
+
+.navbar_custom li a{
+    font-family: Verdana, Geneva, sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 12px;
+}
+
+.navbar_custom li a:hover{
+    color: #c33;
+    border-bottom: 5px solid #c33;
+}
+
+header{
+    background-color: white;
+    height: 120px;
+}
+
+.logo{
+    height: 110px;
+    padding: 10px;
+}
+
+#login_form_container{
+    background-color: #333;
+}
+
+#login_form_container h4{
+    color: #72b4ff;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 3px;
+}
+
+#login_form_container p{
+    color: #ffcb0b;
+    font-size: 13px;
+    padding: 7px;
+}
+
+#login_form_container p a{
+    color: #ffcb0b;
+}
+
+#login_form_container p a:hover{
+    text-decoration: underline;
+}
+
+.link a{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+#login_form{
+    background-color: white;
+    padding: 10px;
+    margin-top: 18px;
+    background-color: #fdfdfd;
+    border-radius: 3px;
+}
+
+#calender_of_events{
+    background-color: white;
+    padding: 10px 100px 10px 100px;
+}
+
+#calender_of_events h5{
+    color: #7e7e7e;
+    font-style: italic;
+    text-align: center;
+}
+
+#event_date_container{
+    float: left;
+}
+
+#date_container{
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin: 10px;
+    margin-right: 0px;
+    background-color: #c33;
+    float:left;
+    height: 60px;
+}
+
+.month{
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #ebebeb;
+    margin: 2px;
+}
+
+.date{
+    font-size: 30px;
+    color: #ebebeb;
+    margin: 2px;
+}
+
+#event_container{
+    padding-left: 12px;
+    paddint-right: 12px;
+    margin: 10px;
+    margin-left: 0px;
+    border: 1px solid #c33;
+    border-left: 0px;
+    float:left;
+    height: 60px;
+}
+
+.event{
+    padding: 10px;
+}
+
+
+
+
+/* Student Profile Page*/
+
+
+#student_profile_page{
+    background-color: #fdfdfd;
+}
+
+#semester_results_and_remarks{
+    margin-top: 10px;
+}
+
+#proctor_remark{
+    font-size: 14px;
+}
+
+.datetime{
+    font-style: italic;
+    font-size: 13px;
+    color: #c33;
+}
+
+.active_cell{
+    background-color: #f2f2f2;
+    font-style: italic;
+}
+
+.heading_for_tables{
+    color: #777;
+}
+
+
+/* Proctor profile page */
+#proctor_profile_page{
+    background-color: white;
+}
+
+#bulk_updation_link{
+    margin-top: 20px;
+    padding: 20px;
+    height: 150px;
+    border: 1px solid #e6e6e6;
+}
+
+#bulk_updation_link a{
+    display: block;
+    padding: 5px 10px 5px 10px;
+    margin: 5px;
+    border: 1px solid #c33;
+    color: #c33;
+    float: left;
+    border-radius: 2px;
+}
+
+#bulk_updation_link a:hover{
+    color: white;
+    background-color: #c33;
+}
+
+#edit_profile{
+    margin-top: 50px;
+    padding: 20px;
+    clear: both;
+    border: 1px solid #e6e6e6;
+}
+
+/* Batch attendence updation */
+#attendance_updation{
+    background-color: white;
+}
