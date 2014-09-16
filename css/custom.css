@@ -236,7 +236,6 @@ header{
 
 .active_cell{
     background-color: #f2f2f2;
-    font-style: italic;
 }
 
 .heading_for_tables{
@@ -252,24 +251,16 @@ header{
 #bulk_updation_link{
     margin-top: 20px;
     padding: 20px;
-    height: 150px;
     border: 1px solid #e6e6e6;
 }
 
-#bulk_updation_link a{
-    display: block;
-    padding: 5px 10px 5px 10px;
-    margin: 5px;
-    border: 1px solid #c33;
-    color: #c33;
-    float: left;
-    border-radius: 2px;
+.tab-pane{
+    padding: 10px;
+    color: #5d5d5d;
 }
 
-#bulk_updation_link a:hover{
-    color: white;
-    background-color: #c33;
-}
+
+
 
 #edit_profile{
     margin-top: 50px;
@@ -284,9 +275,5 @@ header{
 }
 
 #attendance_updation input, text{
-    width: 30px;
-}
-
-#attendace_updation table, td{
-    text-align: center;
+    width: 60px;
 }
