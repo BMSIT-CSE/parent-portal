@@ -254,6 +254,13 @@ header{
     border: 1px solid #e6e6e6;
 }
 
+#bulk_updation_link a p{
+    font-size: 18px;
+    font-style: italic;
+    color: #c33;
+    
+}
+
 .tab-pane{
     padding: 10px;
     color: #5d5d5d;
