@@ -284,3 +284,8 @@ header{
 #attendance_updation input, text{
     width: 60px;
 }
+
+/* Proctor individual student page */
+#individual_student{
+    background-color: white;
+}
