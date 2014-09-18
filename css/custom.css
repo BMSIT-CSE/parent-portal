@@ -244,8 +244,19 @@ header{
 
 
 /* Proctor profile page */
+
 #proctor_profile_page{
     background-color: white;
+}
+
+#search_results{
+    padding: 15px;
+}
+
+#search_results p{
+    font-size: 12px;
+    font-style: italic;
+    color: #777;
 }
 
 #bulk_updation_link{
@@ -275,6 +286,7 @@ header{
     clear: both;
     border: 1px solid #e6e6e6;
 }
+
 
 /* Batch attendence updation */
 #attendance_updation{
