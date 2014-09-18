@@ -268,8 +268,12 @@ header{
 #bulk_updation_link a p{
     font-size: 18px;
     font-style: italic;
-    color: #c33;
-    
+    color: #428bca;  
+}
+
+#bulk_updation_link a:hover{
+    color: #357ebd; 
+    text-decoration: underline;
 }
 
 .tab-pane{
