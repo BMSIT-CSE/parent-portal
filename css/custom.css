@@ -203,14 +203,14 @@ header{
     float: left;
     width: 25%;
     height: 100px;
-    padding: 3px;
-    margin-bottom: 3px;
+    padding: 5px;
+    margin-bottom: 9px;
 }
 
 #date_container{
     width: 35%;
     text-align: center;
-    background-color: #362c2c;
+    background-color: #a3a3a3;
     float:left;
     height: 100px;
 }
@@ -246,7 +246,7 @@ header{
 
 #event_container{
     width: 65%;
-    border: 1px solid #715050;
+    border: 1px solid #a3a3a3;
     border-left: 0px;
     float:left;
     height: 100px;
@@ -256,6 +256,28 @@ header{
 .event{
     padding: 5px 2px 0px 5px;
     color: #343434;
+}
+
+footer{
+    background-color: #212121;
+    color: #cecece;
+    padding: 0px 100px 0px 100px;
+}
+
+footer p.address{
+    font-size: 12px;
+    line-height: 15px;
+}
+
+footer h3{
+    padding: 0px;
+    line-height: 30px;
+    margin-top: -10px;
+}
+
+#bottom_list{
+    display: block;
+    position: relative;
 }
 
 
