@@ -10,17 +10,6 @@
 	</head>
 	<body>
 		<header>
-            <div id="proctor_or_parent">
-                <div>
-                    For:
-                </div>
-                <div id="parent">
-                    <p><a href="#" class="active">Parent</a></p>
-                </div>
-                <div id="proctor">
-                    <p><a href="#">Proctor</a></p>
-                </div>
-            </div>
 			<div class="container">
                 <div class="col-lg-4 centered">
                     <div id="logo_container">
@@ -58,47 +47,98 @@
 		<!-- End of navbar -->
 
 		<div class="container" id="login_form_container">
-			<div class="col-lg-8 col-md-8">
-				<h4>News</h4>
-                <p><a href="#">INDUSTRY ORIENTED COURSE ON " PROJECT MNGT & AGILE FRAMEWORK" on 13,20,27 Sept 2014, from 10:30 am to 1:30 pm, at CSE Seminar Hall</a></p>
-                <p><a href="#">INDUSTRY ORIENTED COURSE ON " PROJECT MNGT & AGILE FRAMEWORK" on 13,20,27 Sept 2014, from 10:30 am to 1:30 pm, at CSE Seminar Hall</a></p>
-                <p><a href="#">INDUSTRY ORIENTED COURSE ON " PROJECT MNGT & AGILE FRAMEWORK" on 13,20,27 Sept 2014, from 10:30 am to 1:30 pm, at CSE Seminar Hall</a></p>
-                <p class="link"><a href="#">More news &#8594; </a></p>
-			</div>
-			<div class="col-lg-4 col-md-4" id="login_form">
-				<h3>Parent Login</h3>
-				<form class="form-horizontal" role="form">
+            <div class="col-lg-4 col-lg-offset-4" id="login_form">
+                <div id="parent_login_form">
+                    <h3>Parent Login</h3>
+                    <form class="form-horizontal" role="form">
 
-				    <div class="form-group">
-				        <div class="col-sm-12">
-				            <input type="email" class="form-control" id="input_entry" placeholder="Email or Ward's USN">
-				        </div>
-				    </div>
-
-					<div class="form-group">
-					    <div class="col-sm-9">
-					      	<input type="password" class="form-control" id="input_password" placeholder="Password">
-					    </div>
-                        <div class="float_left">
-				      		<button type="submit" class="login_button">Sign in</button>
-				    	</div>
-				 	</div>
-
-				    <div class="form-group">
-                            <!--
-					        <div class="checkbox float_left">
-					            <label>
-					           		<input type="checkbox" checked> Remember me
-					        	</label>
-					        </div>
-                            -->
-                            <div class="checkbox float_left">
-                                <a href="#">Reset Password</a>
+                        <div class="form-group">
+                            <div class="col-sm-12">
+                                <input type="email" class="form-control" id="input_entry" placeholder="Email or Ward's USN">
                             </div>
-				    </div>
+                        </div>
 
-				    
-				</form>
+                        <div class="form-group">
+                            <div class="col-sm-9">
+                                <input type="password" class="form-control" id="input_password" placeholder="Password">
+                            </div>
+                            <div class="float_left">
+                                <button type="submit" class="login_button">Sign in</button>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                                <!--
+                                <div class="checkbox float_left">
+                                    <label>
+                                        <input type="checkbox" checked> Remember me
+                                    </label>
+                                </div>
+                                -->
+                                <div class="checkbox float_left" id="parent_password_reset_link">
+                                    <a href="#">Reset Password</a>
+                                </div>
+                                <div class="checkbox float_left" id="proctor_login_link">
+                                    <a href="#">Proctor Login &#8594; </a>
+                                </div>
+                        </div>
+
+
+                    </form>
+                </div>
+                <div id="proctor_login_form">
+                    <h3>Proctor Login</h3>
+                    <form class="form-horizontal" role="form">
+
+                        <div class="form-group">
+                            <div class="col-sm-12">
+                                <input type="email" class="form-control" id="input_entry" placeholder="Email">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-9">
+                                <input type="password" class="form-control" id="input_password" placeholder="Password">
+                            </div>
+                            <div class="float_left">
+                                <button type="submit" class="login_button">Sign in</button>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                                <!--
+                                <div class="checkbox float_left">
+                                    <label>
+                                        <input type="checkbox" checked> Remember me
+                                    </label>
+                                </div>
+                                -->
+                                <div class="checkbox float_left" id="proctor_password_reset_link">
+                                    <a href="#">Reset Password</a>
+                                </div>
+                               <div class="checkbox float_left" id="parent_login_link">
+                                    <a href="#">&#8592; Parent Login </a>
+                                </div>
+                        </div>
+
+
+                    </form>
+                </div>
+                <div id="password_reset_form">
+                    <form class="form-horizontal" role="form">
+
+                        <div class="form-group">
+                            <div class="col-sm-9">
+                                <input type="email" class="form-control" id="input_entry" placeholder="Enter your email">
+                            </div>
+                            <div class="col-sm-3 float_left">
+                                <button type="submit" class="login_button">Submit</button>
+                            </div>
+                        </div>
+
+
+                    </form>
+                </div>
 			</div>
 		</div>
         
@@ -203,6 +243,94 @@
             </div>
         </div>
         
+        <div class="container-fluid" id="blog_container">
+            <div class="container-fluid">
+                <div id="blog_header">
+                    <h5>Activities</h5>
+                </div>
+                <div class="col-lg-4">
+                    <div id="blog_div">
+                        <div id="blog_title">
+                            <p>Lorem Ipsum</p>
+                        </div>
+                        <div id="blog_content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
+                            <p class="blog_date">22 Sept</p>
+                            <p class="author">Dr. Anand</p>
+                            <p class="designation">HOD, Fashion Technology</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div id="blog_div">
+                        <div id="blog_title">
+                            <p>Lorem Ipsum</p>
+                        </div>
+                        <div id="blog_content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
+                            <p class="blog_date">22 Sept</p>
+                            <p class="author">Dr. Anand</p>
+                            <p class="designation">HOD, Fashion Technology</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div id="blog_div">
+                        <div id="blog_title">
+                            <p>Lorem Ipsum</p>
+                        </div>
+                        <div id="blog_content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
+                            <p class="blog_date">22 Sept</p>
+                            <p class="author">Dr. Anand</p>
+                            <p class="designation">HOD, Fashion Technology</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div id="blog_div">
+                        <div id="blog_title">
+                            <p>Lorem Ipsum</p>
+                        </div>
+                        <div id="blog_content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
+                            <p class="blog_date">22 Sept</p>
+                            <p class="author">Dr. Anand</p>
+                            <p class="designation">HOD, Fashion Technology</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div id="blog_div">
+                        <div id="blog_title">
+                            <p>Lorem Ipsum</p>
+                        </div>
+                        <div id="blog_content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
+                            <p class="blog_date">22 Sept</p>
+                            <p class="author">Dr. Anand</p>
+                            <p class="designation">HOD, Fashion Technology</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div id="blog_div">
+                        <div id="blog_title">
+                            <p>Lorem Ipsum</p>
+                        </div>
+                        <div id="blog_content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in</p>
+                            <p class="blog_date">22 Sept</p>
+                            <p class="author">Dr. Anand</p>
+                            <p class="designation">HOD, Fashion Technology</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        
+        
         <footer>
             <div class="container">
                 <div class="col-lg-6">
@@ -229,5 +357,6 @@
 
 		<script src="http://code.jquery.com/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+        <script src="js/custom.js"></script>
 	</body>
 </html>

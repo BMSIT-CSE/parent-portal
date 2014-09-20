@@ -1,0 +1,18 @@
+$(document).ready(function(){
+    $('#proctor_login_link').click(function(){
+        $('#parent_login_form').hide();
+        $('#password_reset_form').hide();
+        $('#proctor_login_form').fadeIn();
+    });
+    $('#parent_login_link').click(function(){
+        $('#proctor_login_form').hide();
+        $('#password_reset_form').hide();
+        $('#parent_login_form').fadeIn();
+    });
+    $('#parent_password_reset_link').click(function(){
+        $('#password_reset_form').toggle();
+    });
+    $('#proctor_password_reset_link').click(function(){
+        $('#password_reset_form').toggle();
+    });
+});

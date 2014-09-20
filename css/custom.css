@@ -119,6 +119,7 @@ header{
 
 #login_form_container{
     background-color: #333;
+    height: 250px;
 }
 
 #login_form_container h4{
@@ -149,8 +150,7 @@ header{
 
 #login_form{
     background-color: #171717;
-    padding: 10px;
-    margin-top: 18px;
+    margin-top: 30px;
     border-radius: 3px;
     color: #c3c3c3;
 }
@@ -182,6 +182,14 @@ header{
     outline: 0 none;
 }
 
+#proctor_login_form{
+    display: none;
+}
+
+#password_reset_form{
+    display: none;
+}
+
 .checkbox{
     padding: 0 0 0 20px;
 }
@@ -190,7 +198,8 @@ header{
 
 #calender_of_events{
     background-color: white;
-    padding: 10px 100px 10px 100px;
+    padding: 40px 100px 80px 100px;
+    margin-top: 30px;
 }
 
 #calender_of_events h5{
@@ -256,6 +265,64 @@ header{
 .event{
     padding: 5px 2px 0px 5px;
     color: #343434;
+}
+
+#blog_container{
+    padding: 0px 100px 40px 100px;
+    background-color: #f0f0f0;
+}
+
+#blog_header{
+    background-color: #c33;
+    padding: 3px 15px 3px 15px;
+    margin: 0px 14px 0px 14px;
+}
+
+#blog_container h5{
+    color: #fff;
+    font-size: 18px;
+}
+
+#blog_div{
+    height: 450px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #d1d1d1;
+    margin: 7px 0px 7px 0px;
+    box-shadow: 2px 2px 5px #d1d1d1;;
+}
+
+#blog_title p{
+    color: #526cff;
+    font-size: 25px;
+    
+}
+
+#blog_content p{
+    font-size: 14px;
+    color: #4d4d4d;
+}
+
+.blog_date{
+    text-align: right;
+    padding-right: 5px;
+    color: #777;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.author{
+    text-align: right;
+    padding-right: 5px;
+    color: #777;
+    font-size: 18px;
+}
+
+.designation{
+    text-align: right;
+    padding-right: 5px;
+    color: #777;
+    font-size: 15px;
 }
 
 footer{
