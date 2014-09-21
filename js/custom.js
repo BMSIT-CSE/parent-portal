@@ -25,7 +25,7 @@ $(document).ready(function(){
     });
     $(document).scroll(function(){
         var scrollTop = $(document).scrollTop();
-        if(scrollTop > 70){
+        if(scrollTop > 69){
             $('.navbar').removeClass('navbar-static-top').addClass('navbar-fixed-top');
         } 
         else {
