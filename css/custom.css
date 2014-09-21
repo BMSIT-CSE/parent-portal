@@ -96,8 +96,8 @@ a:hover{
     border: 0px;
     border-radius: 0px;
     margin: 0px;
-    margin-right: 10px;
     width: 100%;
+    padding-right: 50px;
 }
 
 .navbar_custom li a{
