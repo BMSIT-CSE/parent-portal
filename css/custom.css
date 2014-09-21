@@ -88,11 +88,16 @@ a:hover{
     color: #c33;
 }
 
+#margin_on_top_of_navbar{
+    height: 70px;
+}
+
 .navbar_custom{
     border: 0px;
     border-radius: 0px;
     margin: 0px;
-    margin-top: 70px;
+    margin-right: 10px;
+    width: 100%;
 }
 
 .navbar_custom li a{
@@ -119,7 +124,6 @@ header{
 
 #login_form_container{
     background-color: #333;
-    height: 250px;
 }
 
 #login_form_container h4{

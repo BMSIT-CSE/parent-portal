@@ -15,4 +15,20 @@ $(document).ready(function(){
     $('#proctor_password_reset_link').click(function(){
         $('#password_reset_form').toggle("slide");
     });
+
+    $(".nav_link").click(function(){
+        var clicked = "#" + this.id.split('__')[0];
+        $('html, body').animate({
+                scrollTop: $(clicked).offset().top
+        }, 500);
+    });
+    $(document).scroll(function(e){
+        var scrollTop = $(document).scrollTop();
+        if(scrollTop > 0){
+            $('.navbar').removeClass('navbar-static-top').addClass('navbar-fixed-top');
+        } 
+        else {
+            $('.navbar').removeClass('navbar-fixed-top').addClass('navbar-static-top');
+        }
+    });
 });
