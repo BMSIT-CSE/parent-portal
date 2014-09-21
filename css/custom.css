@@ -263,7 +263,7 @@ header{
     border-left: 0px;
     float:left;
     height: 100px;
-    overflow: scroll;
+    overflow-x: scroll;
 }
 
 .event{
