@@ -264,6 +264,7 @@ header{
     float:left;
     height: 100px;
     overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .event{
