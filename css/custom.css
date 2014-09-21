@@ -351,18 +351,20 @@ footer h3{
 
 
 /* Student Profile Page*/
-
+#student_profile_page div{
+    padding: 10px;
+}
 
 #student_profile_page{
     background-color: #fdfdfd;
 }
 
 #semester_results_and_remarks{
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 #proctor_remark{
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .datetime{
@@ -372,7 +374,19 @@ footer h3{
 }
 
 .active_cell{
-    background-color: #f2f2f2;
+    background-color: #e7e9ff;
+}
+
+.pass_cell{
+    background-color: #26d026;
+}
+
+.bunk_cell{
+    background-color: #d1d1d1;
+}
+
+.fail_cell{
+    background-color: #ff1818;
 }
 
 .heading_for_tables{
