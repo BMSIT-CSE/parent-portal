@@ -124,6 +124,7 @@ header{
 
 #login_form_container{
     background-color: #333;
+    height: 230px;
 }
 
 #login_form_container h4{
@@ -192,6 +193,7 @@ header{
 
 #password_reset_form{
     display: none;
+    padding: 10px 10px 50px 10px;
 }
 
 .checkbox{
