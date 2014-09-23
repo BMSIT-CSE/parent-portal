@@ -439,6 +439,10 @@ footer h3{
     color: #5d5d5d;
 }
 
+table td:nth-child(5){
+    text-align: center;
+}
+
 
 
 
