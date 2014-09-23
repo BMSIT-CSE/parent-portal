@@ -193,7 +193,7 @@ header{
 
 #password_reset_form{
     display: none;
-    padding: 10px 10px 50px 10px;
+    padding: 10px 3px 50px 3px;
 }
 
 .checkbox{
@@ -462,6 +462,24 @@ footer h3{
 /* Proctor individual student page */
 #individual_student{
     background-color: white;
+}
+
+#parent_feedback{
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    overflow-x: none;
+    overflow-y: scroll;
+    height: 160px;
+}
+
+#parent_feedback p.feedback{
+    color: #4c4c4c;
+}
+
+#parent_feedback .date_feedback{
+    color: #777;
+    font-style: italic;
 }
 
 /* Parent edit page */
