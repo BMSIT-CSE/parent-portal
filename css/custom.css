@@ -215,7 +215,7 @@ header{
     text-align: center;
 }
 
-#event_date_container{
+.event_date_container{
     float: left;
     width: 25%;
     height: 100px;
@@ -223,7 +223,7 @@ header{
     margin-bottom: 9px;
 }
 
-#date_container{
+.date_container{
     width: 35%;
     text-align: center;
     background-color: #a3a3a3;
@@ -266,7 +266,7 @@ header{
     padding-right: 2px;
 }
 
-#event_container{
+.event_container{
     width: 65%;
     border: 1px solid #a3a3a3;
     border-left: 0px;
@@ -276,7 +276,7 @@ header{
     overflow-x: hidden;
 }
 
-#event_container p{
+.event_container p{
     font-size: 13px;
 }
 
@@ -301,7 +301,7 @@ header{
     font-size: 18px;
 }
 
-#blog_div{
+.blog_div{
     height: 450px;
     padding: 10px;
     background-color: white;
@@ -310,13 +310,13 @@ header{
     box-shadow: 2px 2px 5px #d1d1d1;
 }
 
-#blog_title p{
+.blog_title p{
     color: #8d8d8d;
     font-size: 25px;
     
 }
 
-#blog_content p{
+.blog_content p{
     font-size: 14px;
     color: #4d4d4d;
 }
