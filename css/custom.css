@@ -375,6 +375,10 @@ footer h3{
     font-size: 16px;
 }
 
+.proctor_remark{
+    font-size: 16px;
+}
+
 .datetime{
     font-style: italic;
     font-size: 13px;
@@ -416,6 +420,10 @@ footer h3{
     font-size: 12px;
     font-style: italic;
     color: #777;
+}
+
+.student_list_table td{
+    width: 20%;
 }
 
 #bulk_updation_link{
