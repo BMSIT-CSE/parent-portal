@@ -504,3 +504,11 @@ table td:nth-child(5){
     border: 1px solid #d0d0d0;
     box-shadow: 2px 2px 5px #d1d1d1;
 }
+
+#title_container_footer{
+    float:left;
+    height: 120px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+}
