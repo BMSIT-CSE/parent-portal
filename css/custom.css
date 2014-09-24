@@ -3,6 +3,7 @@ body{
     height: 100%;
     color: rgb(13, 9, 65);
     background-color: #333;
+    background-image: none;
     font-family: Verdana, Geneva, sans-serif;
 } 
 
