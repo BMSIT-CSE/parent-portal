@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    condole.log("Hi");
     $('.proctor_login_link').click(function(){
         $('#parent_login_form').hide();
         $('#password_reset_form').hide();
@@ -20,6 +21,7 @@ $(document).ready(function(){
 
     $(".nav_link").click(function(){
         var clicked = "#" + this.id.split('__')[0];
+        console.log(clicked);
         $('html, body').animate({
                 scrollTop: ($(clicked).offset().top)-50
         }, 500);
@@ -29,7 +31,7 @@ $(document).ready(function(){
         var scrollTop = $(document).scrollTop();
         if(scrollTop > 68){
             $('.navbar').removeClass('navbar-static-top').addClass('navbar-fixed-top');
-        } 
+        }
         else {
             $('.navbar').removeClass('navbar-fixed-top').addClass('navbar-static-top');
         }
